@@ -1,7 +1,8 @@
 #include "learning_gem5/part2/hello_object.hh"
 
-#include <iostream>
+#include "base/trace.hh"
+#include "debug/Hello.hh"
 
 HelloObject::HelloObject(const HelloObjectParams &params) : SimObject(params) {
-  std::cout << "Hello World! From a SimObject!" << std::endl;
+  DPRINTF(Hello, "Created the hello object\n");
 }
