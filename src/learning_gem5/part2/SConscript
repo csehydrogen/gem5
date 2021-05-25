@@ -8,3 +8,7 @@ DebugFlag('Hello')
 SimObject('SimpleMemobj.py')
 Source('simple_memobj.cc')
 DebugFlag('SimpleMemobj')
+
+SimObject('SimpleCache.py')
+Source('simple_cache.cc')
+DebugFlag('SimpleCache')
